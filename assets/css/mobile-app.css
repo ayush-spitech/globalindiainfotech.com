@@ -1,0 +1,76 @@
+ 
+.ticket-container{
+	border:1px solid #CCC;
+	padding:10px;
+	font-family:sans-serif;
+}
+
+.logo{	
+	text-align:center;
+}
+.logo img{
+	width: 100px;
+}
+/*---Ticket Header--*/
+.ticket-header{
+	border-top:1px solid #CCC;
+	padding: 10px 0px;
+}
+
+/*---Ticket Body--*/
+.ticket-body{
+	border-top:1px solid #CCC;
+	padding: 10px 0px;
+}
+
+
+.ticket-details{
+	text-align: center;
+	font-size:15px;
+}
+.event-name{
+	text-align: center;
+	font-style: bold;
+	font-size: 20px;
+}
+.qr-code{	
+	padding:10px;
+	text-align: center;
+}
+.qr-code img{
+	width:150px;
+	height:150px;
+}
+
+/*---Ticket Footer--*/
+.ticket-footer{
+	border-top:1px solid #CCC;
+	padding: 10px 0px;   
+}
+
+
+
+body{
+	background-color: #c8c8c8;
+}
+.heading{
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	margin-top:10px;
+}
+.heading h3{
+	margin:10px !important;
+}
+h3.invalid{
+	color:red;
+}
+.mobile-logo {
+		width: 100px;
+		margin-top: 15px !important;
+	}
+@media (max-width: 360px){
+	.mobile-logo {
+		width: 100px;
+		margin-top: 15px !important;
+	}
+}

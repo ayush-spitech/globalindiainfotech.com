@@ -1,2 +1,2 @@
 # globalindiainfotech.com
-Dynamic website usinc CI
+Dynamic website

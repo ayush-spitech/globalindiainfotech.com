@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* start editing from here */
+a {
+  text-decoration: none;
+}
+.txt-rt {
+  text-align: right;
+  }/* text align right */
+  .txt-lt {
+    text-align: left;
+    }/* text align left */
+    .txt-center {
+      text-align: center;
+      }/* text align center */
+      .float-rt {
+        float: right;
+        }/* float right */
+        .float-lt {
+          float: left;
+          }/* float left */
+          .clear {
+            clear: both;
+            }/* clear float */
+            .pos-relative {
+              position: relative;
+              }/* Position Relative */
+              .pos-absolute {
+                position: absolute;
+                }/* Position Absolute */
+                .vertical-base {
+                  vertical-align: baseline;
+                  }/* vertical align baseline */
+                  .vertical-top {
+                    vertical-align: top;
+                    }/* vertical align top */
+                    nav.vertical ul li {
+                      display: block;
+                      }/* vertical menu */
+                      nav.horizontal ul li {
+                        display: inline-block;
+                        }/* horizontal menu */
+                        img {
+                          max-width: 100%;
+                        }
+                        /*end reset*/
+
+                        body {
+                          font-family: "Times New Roman", Times, serif;
+                          font-weight: 100%;
+                        }
+                        /*---start-wrap-----*/
+                        .wrap {
+                          width: 80%;
+                          margin: 0 auto;
+                        }
+                        /*---start-header----*/
+                        .header {
+                          background: orange;
+                          height: 50px;
+                          border-top: 1px solid red;
+                        }
+                        /*---start-top-nav----*/
+                        .top-nav {
+                          text-align: center;
+                        }
+                        /*---start-top-content----*/
+                        .top-content h1 {
+                          font-size: 36px;
+                          width: 62%;
+                          word-spacing: 0.2em;
+                          margin: 0.71em auto;
+                          font-family: "Times New Roman", Times, serif;
+                          ;
+                          color: #FF8800;
+                          text-transform: uppercase;
+                          text-align: center;
+                          font-weight: 600;
+                          line-height: 1.5em;
+                        }
+                        
+                        /*----responsive-design-----*/
+                        @media only screen and (max-width: 1366px) and (min-width: 1280px) {
+                          .wrap {
+                            width: 90%;
+                          }
+                          .top-content h1 {
+                            width: 70%;
+                          }                           
+                        }
+                        @media only screen and (max-width: 1280px) and (min-width: 1024px) {
+                          .wrap {
+                            width: 90%;
+                          }
+                          .top-content h1 {
+                            width: 70%;
+                          }
+                          ul#countdown li {
+                            width: 11%;
+                          }
+                          .notify form {
+                            width: 45%;
+                          }
+                        }
+                        @media only screen and (max-width: 1024px) and (min-width: 768px) {
+                          .wrap {
+                            width: 90%;
+                          }
+                          .top-content h1 {
+                            width: 70%;
+                            font-size: 3em;
+                          }
+                          ul#countdown li {
+                            width: 11%;
+                          }
+                          .notify form {
+                            width: 57%;
+                          }
+                        }
+                        @media only screen and (max-width: 768px) and (min-width: 640px) {
+                          .wrap {
+                            width: 90%;
+                          }
+                          .top-content h1 {
+                            width: 70%;
+                            font-size: 2.2em;
+                          }                           
+                        }

@@ -1,0 +1,214 @@
+/*----------custom css-------------*/
+li.lang-dropdown.pull-left {
+	margin-top: -4px;
+	margin-right: 35px;
+}
+.lebel-value {
+    vertical-align: middle;
+    padding-top: 7px;
+}
+
+.admin-logo{
+	height: 104px;	
+	text-align: center;
+}
+.login-box{
+	border:1px solid #ccc;
+	padding-top:20px;	
+}
+.has-success{
+	border:1px solid green !important;
+}
+.has-error{
+	border:1px solid red !important;
+}
+.error, .error *{
+	color:red;
+}
+.required{
+	color:red;
+}
+.msg-btn{
+	cursor:pointer;
+}
+.alert p{
+	color:#FFF;
+}
+
+.tbl-img{
+	width:50px;	
+	float:left;
+	margin-right:5px;
+}
+.tbl-img img{
+	width:50px;	
+	height:50px;	
+}
+/*---Actions --------*/
+a.delete{
+	color:red !important;	
+}
+a.edit{
+	color:blue !important;
+}
+/*--Custom Bootstrap---*/
+.form-control{
+	border-radius:0px;
+	font-size: 12px;
+	height: 30px;	
+}
+.btn{
+	border-radius:0px;
+	font-size: 12px;
+	padding: 6px 12px;
+}
+.text-red{
+	color:red;
+}
+.text-hint{	
+	font-size:11px;
+	color:#000;
+}
+/*----------inherited from style.css-------------*/
+.alert {
+	border: 1px solid transparent;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	padding: 4px;
+}
+.panel-heading {
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.025em;
+	height: 38px;
+	line-height: 23px;
+}
+.text-small{
+	font-size:10px;
+	font-style: italic;
+	color: red;
+}
+/*  Horizonatal */
+.hr{
+	font-size:17px;
+	border-bottom:1px solid #ccc;
+	width: auto;
+	line-height:40px;
+}
+
+/* Sidebar */
+div#sidebar-collapse {
+	background-color: #1d2225;
+	color:white;
+}
+#sidebar-collapse ul li a{
+	color:white;
+}
+#sidebar-collapse ul li:hover >a{
+	background-color: #30a5ff;	
+	color:white;
+}
+#sidebar-collapse ul li ul li:hover >a{
+	background-color: #30a5ff;	
+	color:white;
+}
+
+/*  Form controls  */
+form .form-group{
+	margin-bottom:10px;
+}
+form input[type="text"],input[type="password"],input[type="number"],input[type="email"],textarea{
+	border:1px solid #000 !important;
+}
+
+form select{
+	border:1px solid #000 !important;
+}
+.select2-container--default .select2-selection--multiple{
+	border:1px solid #000;
+	border-radius:0px;
+}
+.select2-container--default .select2-selection--single{
+	border:1px solid #000;
+	border-radius:0px;
+}
+
+.no-padding{
+	padding:0px;
+}
+.amount{
+	text-align:right;
+	font-weight:bold; 
+}
+
+/*---------Tables **********/
+.fixed-table-toolbar {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 0px;
+	float: right;    	
+	margin-bottom:5px;
+	clear:both;
+}
+.fixed-table-toolbar .bs-bars, .fixed-table-toolbar .search, .fixed-table-toolbar .columns {
+	position: relative;
+	margin-top: 2px;
+	margin-bottom: 0;
+	line-height:0;
+	vertical-align:middle;
+}
+
+#table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#table td, #table th {
+	border: 1px solid #ddd;    
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+	text-align: center;   
+	color: white;
+}
+
+td.mobile{
+	text-align:center !important;
+	font-weight:bold;
+}
+td.currency{
+	text-align:right !important;
+	font-weight:bold;
+}
+td.name{
+	text-transform:capitalize !important;
+}
+td.action{
+	text-align:center !important;
+}
+td.table-date{
+	text-align:center !important;
+
+}
+
+/*Image Upload*/
+.image-upload > input
+{
+	display: none;
+}
+.image-upload img{
+	cursor:pointer;	
+}
+.status-active{
+	background-color:green !important;
+	color:white !important;
+}
+.status-inactive{
+	background-color:red !important;
+	color:white !important;
+}
